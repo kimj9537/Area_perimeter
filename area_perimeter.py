@@ -21,9 +21,9 @@ def num_check(question):
 
 
 radius = num_check(" How long is the radius? ")
-    if radius < 0:
+if radius < 0:
         dodgy_sf = input("The length of the radius has to be bigger than 0.").lower()
-    if radius = 0:
+if radius is 0:
         dodgy_sf = input("The length has to be a positive number with certain amount.").lower()
 
 area_of_circle = radius * radius * math.pi
