@@ -2,7 +2,8 @@ import math
 
 def num_check(question):
 
-    error = "Please enter a number that is more than zero"
+    error = "Please enter ACTUAL valid numbers that can be a length of radius. "
+    error1 = "Please enter a number that is more than zero. "
 
     valid = False
     while not valid:
@@ -10,7 +11,10 @@ def num_check(question):
             response = float(input(question))
 
             if response <= 0:
-                print(error)
+                print(error1)
+
+            elif response == 0:
+                print(error1)
             else:
 
                 return response
@@ -20,13 +24,11 @@ def num_check(question):
 
 
 
+
+
 radius = num_check(" How long is the radius? ")
-if radius < 0:
-        dodgy_sf = input("The length of the radius has to be bigger than 0.").lower()
-if radius is 0:
-        dodgy_sf = input("The length has to be a positive number with certain amount.").lower()
 
 area_of_circle = radius * radius * math.pi
 
 
-print(area_of_circle(1))
+print(area_of_circle)

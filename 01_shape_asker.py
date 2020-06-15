@@ -1,5 +1,15 @@
 
+error = "This kind of shape isn't added to this program or not existing."
+
+
+valid = False
+    while not valid:
+        response = input(question)
+        has_errors = ""
+
+
 def name_checker():
+
 
     name_tocheck = input("What is the name of the shape? ")
 
@@ -14,12 +24,7 @@ def name_checker():
         print("you chose {}".format(name_tocheck))
         return name_tocheck
 
-    elif name_tocheck ==
-
-
-
-error = "This kind of shape isn't added to this program or not existing."
-has_error = ""
+keep_going = ""
 
 
 
@@ -27,6 +32,3 @@ has_error = ""
 
 
 
-
-
-print("The shape is {}".format())
