@@ -2,13 +2,27 @@
 error = "This kind of shape isn't added to this program or not existing."
 
 
-valid = False
+
+
+
+
+
+def name_checker(question, error_msg, letter_ok):
+
+
+    valid = False
     while not valid:
         response = input(question)
         has_errors = ""
+        if letter_ok != "yes":
+            for number in response:
+                if number.isdigit():
+                    has_errors = "yes"
+                    break
+            if response == name_checker(question)
 
 
-def name_checker():
+
 
 
     name_tocheck = input("What is the name of the shape? ")
@@ -19,16 +33,14 @@ def name_checker():
     triangle = ["triangle", "Triangle", "T", "t", "tri", "Tri"]
     parallelogram = ["parallelogram", "Parallelogram"]
 
-
-    if name_tocheck == "":
-        print("you chose {}".format(name_tocheck))
-        return name_tocheck
-
-keep_going = ""
-
+    elif name_tocheck == "C" or name_tocheck.lower() in circle:
+        return "circle"
+    elif name_tocheck.lower() in square:
+        return "square"
+    elif name_tocehck.lower() in 
 
 
 
 
-
+# keep_going = ""
 
