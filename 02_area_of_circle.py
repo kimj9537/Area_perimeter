@@ -20,9 +20,7 @@ def num_check(question):
                 return response
 
         except ValueError:
-            print (error)
-
-
+            print(error)
 
 
 
