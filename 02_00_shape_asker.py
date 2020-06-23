@@ -12,11 +12,11 @@ def shape_checker(question, to_check):
             elif response == shape[0]:
                 return shape
 
-        print("That isn't a proper name for a shape.")
+        print("That isn't a valid shape name.")
 
 # *** Main Routine ****
 
 shape_name = ["circle", "square", "rectangle", "triangle", "parallelogram"]
 
 shape_name = shape_checker("What is the name of the shape?", shape_name)
-print(shape_name)
+print("You are now asking {}".format(shape_name))
