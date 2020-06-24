@@ -1,8 +1,6 @@
-import math
-
 def num_check(question):
 
-    error = "Please enter ACTUAL valid numbers that can be a length of a radius. "
+    error = "Please enter ACTUAL valid numbers that can be a length of a square. "
     error1 = "Please enter a number that is more than zero. "
 
     valid = False
@@ -24,8 +22,8 @@ def num_check(question):
 
 
 
-radius = num_check(" How long is the radius? ")
+side_length = num_check(" How long is the length of a side of the square? ")
 
-area_of_circle = radius * radius * math.pi
+perimeter_of_square = side_length * 4
 
-print("The area of the circle {}".format(area_of_circle))
+print("The area of the square is {}".format(perimeter_of_square))

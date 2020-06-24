@@ -22,8 +22,8 @@ def num_check(question):
 
 
 
-side_length = num_check(" How long is the length of a side of a square? ")
+side_length = num_check(" How long is the length of a side of the square? ")
 
 area_of_square = side_length * side_length
 
-print(area_of_square)
+print("The area of the square is {}".format(area_of_square))
