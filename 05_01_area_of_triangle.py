@@ -9,6 +9,7 @@ def num_check(question):
 
             if response < 0:
                 print(error)
+
             else:
 
                 return response
@@ -16,8 +17,10 @@ def num_check(question):
         except ValueError:
             print(error)
 
-side_length = num_check(" How long is the length of a side of the square? ")
 
-perimeter_of_square = side_length * 4
+height_length = num_check(" How long is the height of this triangle? ")
+base_length = num_check(" How long is the base of the triangle? ")
 
-print("The area of the square is {}".format(perimeter_of_square))
+area_of_triangle = height_length * base_length * 0.5
+
+print("The area of the triangle is {}".format(area_of_triangle))
