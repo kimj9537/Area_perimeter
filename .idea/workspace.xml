@@ -17,62 +17,34 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="07_to_grams.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/07_to_grams.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="442">
-                    <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="06_convert_mls.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/06_convert_mls.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="17">
-                    <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Area_perimeter" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="05_01_area_of_triangle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_01_area_of_triangle.py">
+      <file leaf-file-name="07_02_perimeter_of_trapezium.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_02_perimeter_of_trapezium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="34">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05_02_perimeter_of_triangle.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_02_perimeter_of_triangle.py">
+      <file leaf-file-name="05_scale_ingredients.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/05_scale_ingredients.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_ingredient_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/04_ingredient_list.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -81,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_02_perimeter_of_rectangle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_02_perimeter_of_rectangle.py">
+      <file leaf-file-name="06_convert_mls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/06_convert_mls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="65" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_01_unit_checker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_01_unit_checker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -114,7 +96,6 @@
         <option value="$PROJECT_DIR$/01_2_shape_asker.py" />
         <option value="$PROJECT_DIR$/01_area_of_circle.py" />
         <option value="$PROJECT_DIR$/02_2_shape_asker.py" />
-        <option value="$PROJECT_DIR$/02_00_shape_asker.py" />
         <option value="$PROJECT_DIR$/03_02_perimeter_of_square.py" />
         <option value="$PROJECT_DIR$/04_02_perimeter_of_rectangle.py" />
         <option value="$PROJECT_DIR$/01_01_area_of_circle.py" />
@@ -123,6 +104,13 @@
         <option value="$PROJECT_DIR$/04_01_area_of_rectangle.py" />
         <option value="$PROJECT_DIR$/05_01_area_of_triangle.py" />
         <option value="$PROJECT_DIR$/05_02_perimeter_of_triangle.py" />
+        <option value="$PROJECT_DIR$/06__01_area_of_parallelogram.py" />
+        <option value="$PROJECT_DIR$/06_01_area_of_parallelogram.py" />
+        <option value="$PROJECT_DIR$/06_02_perimeter_of_parallelogram.py" />
+        <option value="$PROJECT_DIR$/02_00_shape_asker.py" />
+        <option value="$PROJECT_DIR$/07_01_area_of_trapezium.py" />
+        <option value="$PROJECT_DIR$/07_02_perimeter_of_trapezium.py" />
+        <option value="$PROJECT_DIR$/08_01_unit_checker.py" />
       </list>
     </option>
   </component>
@@ -156,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,6 +164,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -185,8 +173,8 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.05_01_area_of_triangle">
-    <configuration default="false" name="03_01_area_of_square" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.08_01_unit_checker">
+    <configuration default="false" name="06__01_area_of_parallelogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -198,12 +186,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_01_area_of_square.py" />
+      <option name="SCRIPT_NAME" value="H:\Documents\com201\Area_perimeter\06_01_area_of_parallelogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="03_02_perimeter_of_square" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="06_02_perimeter_of_parallelogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -215,12 +203,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_02_perimeter_of_square.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_02_perimeter_of_parallelogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="04_01_area_of_rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="07_01_area_of_trapezium" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -232,12 +220,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_01_area_of_rectangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_01_area_of_trapezium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="04_02_perimeter_of_rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="07_02_perimeter_of_trapezium" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -249,12 +237,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_02_perimeter_of_rectangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_02_perimeter_of_trapezium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="05_01_area_of_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="08_01_unit_checker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -266,7 +254,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_01_area_of_triangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_01_unit_checker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -406,19 +394,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03_01_area_of_square" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03_02_perimeter_of_square" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04_01_area_of_rectangle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.04_02_perimeter_of_rectangle" />
-      <item index="4" class="java.lang.String" itemvalue="Python.05_01_area_of_triangle" />
+      <item index="0" class="java.lang.String" itemvalue="Python.06__01_area_of_parallelogram" />
+      <item index="1" class="java.lang.String" itemvalue="Python.06_02_perimeter_of_parallelogram" />
+      <item index="2" class="java.lang.String" itemvalue="Python.07_01_area_of_trapezium" />
+      <item index="3" class="java.lang.String" itemvalue="Python.07_02_perimeter_of_trapezium" />
+      <item index="4" class="java.lang.String" itemvalue="Python.08_01_unit_checker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.05_01_area_of_triangle" />
-        <item index="1" class="java.lang.String" itemvalue="Python.04_02_perimeter_of_rectangle" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04_01_area_of_rectangle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_02_perimeter_of_square" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03_01_area_of_square" />
+        <item index="0" class="java.lang.String" itemvalue="Python.08_01_unit_checker" />
+        <item index="1" class="java.lang.String" itemvalue="Python.07_02_perimeter_of_trapezium" />
+        <item index="2" class="java.lang.String" itemvalue="Python.07_01_area_of_trapezium" />
+        <item index="3" class="java.lang.String" itemvalue="Python.06_02_perimeter_of_parallelogram" />
+        <item index="4" class="java.lang.String" itemvalue="Python.06__01_area_of_parallelogram" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +425,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="929" y="0" width="995" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2308478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -482,58 +470,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_01_area_of_square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_00_shape_asker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_01_shape_asker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_02_shape_asker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_01_area_of_circle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_02_perimeter_of_circle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_00_shape_asker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -561,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/05_scale_ingredients.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_02_shape_asker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -717,27 +642,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/06_convert_mls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/07_to_grams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_02_perimeter_of_square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,14 +674,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/07_to_grams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_02_perimeter_of_parallelogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_01_area_of_parallelogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_02_perimeter_of_triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_01_area_of_triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_00_shape_asker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_01_area_of_trapezium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -789,18 +740,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_01_area_of_triangle.py">
+    <entry file="file://$PROJECT_DIR$/07_02_perimeter_of_trapezium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_02_perimeter_of_triangle.py">
+    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/05_scale_ingredients.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/04_ingredient_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/06_convert_mls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_01_unit_checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>

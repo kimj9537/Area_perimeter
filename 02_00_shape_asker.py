@@ -16,7 +16,7 @@ def shape_checker(question, to_check):
 
 # *** Main Routine ****
 
-shape_name = ["circle", "square", "rectangle", "triangle", "parallelogram"]
+shape_name = ["circle", "square", "rectangle", "triangle", "parallelogram", "trapezium"]
 
 shape_name = shape_checker("What is the name of the shape?", shape_name)
 print("You are now asking {}".format(shape_name))
