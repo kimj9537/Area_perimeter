@@ -26,8 +26,8 @@
       <file leaf-file-name="07_02_perimeter_of_trapezium.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07_02_perimeter_of_trapezium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="05_scale_ingredients.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/05_scale_ingredients.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="357">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -53,21 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06_convert_mls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/06_convert_mls.py">
+      <file leaf-file-name="08_01_to_cm_converter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_01_to_cm_converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08_01_unit_checker.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08_01_unit_checker.py">
+      <file leaf-file-name="08_01_to_cm_converter_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_01_to_cm_converter_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="442">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_convert_mls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/06_convert_mls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,6 +121,8 @@
         <option value="$PROJECT_DIR$/07_01_area_of_trapezium.py" />
         <option value="$PROJECT_DIR$/07_02_perimeter_of_trapezium.py" />
         <option value="$PROJECT_DIR$/08_01_unit_checker.py" />
+        <option value="$PROJECT_DIR$/08_01_to_cm_converter.py" />
+        <option value="$PROJECT_DIR$/08_01_to_cm_converter_v2.py" />
       </list>
     </option>
   </component>
@@ -173,24 +185,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.08_01_unit_checker">
-    <configuration default="false" name="06__01_area_of_parallelogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="H:\Documents\com201\Area_perimeter\06_01_area_of_parallelogram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Documents\com201\Area_perimeter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.08_01_to_cm_converter">
     <configuration default="false" name="06_02_perimeter_of_parallelogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +254,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Area_perimeter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_01_unit_checker.py" />
+      <option name="SCRIPT_NAME" value="H:\Documents\com201\Area_perimeter\08_01_to_cm_converter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="08_01_to_cm_converter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Area_perimeter" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_01_to_cm_converter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -394,19 +411,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.06__01_area_of_parallelogram" />
-      <item index="1" class="java.lang.String" itemvalue="Python.06_02_perimeter_of_parallelogram" />
-      <item index="2" class="java.lang.String" itemvalue="Python.07_01_area_of_trapezium" />
-      <item index="3" class="java.lang.String" itemvalue="Python.07_02_perimeter_of_trapezium" />
-      <item index="4" class="java.lang.String" itemvalue="Python.08_01_unit_checker" />
+      <item index="0" class="java.lang.String" itemvalue="Python.06_02_perimeter_of_parallelogram" />
+      <item index="1" class="java.lang.String" itemvalue="Python.07_01_area_of_trapezium" />
+      <item index="2" class="java.lang.String" itemvalue="Python.07_02_perimeter_of_trapezium" />
+      <item index="3" class="java.lang.String" itemvalue="Python.08_01_unit_checker" />
+      <item index="4" class="java.lang.String" itemvalue="Python.08_01_to_cm_converter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.08_01_unit_checker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.07_02_perimeter_of_trapezium" />
-        <item index="2" class="java.lang.String" itemvalue="Python.07_01_area_of_trapezium" />
-        <item index="3" class="java.lang.String" itemvalue="Python.06_02_perimeter_of_parallelogram" />
-        <item index="4" class="java.lang.String" itemvalue="Python.06__01_area_of_parallelogram" />
+        <item index="0" class="java.lang.String" itemvalue="Python.08_01_to_cm_converter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.08_01_unit_checker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.07_02_perimeter_of_trapezium" />
+        <item index="3" class="java.lang.String" itemvalue="Python.07_01_area_of_trapezium" />
+        <item index="4" class="java.lang.String" itemvalue="Python.06_02_perimeter_of_parallelogram" />
       </list>
     </recent_temporary>
   </component>
@@ -425,9 +442,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="929" y="0" width="995" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2308478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1092952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -475,14 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02_00_shape_asker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_01_shape_asker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -509,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,30 +736,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07_02_perimeter_of_trapezium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/05_scale_ingredients.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/04_ingredient_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -772,10 +763,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_01_unit_checker.py">
+    <entry file="file://$PROJECT_DIR$/../01_recipes-master/01_recipes-master/04_ingredient_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_01_to_cm_converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_01_to_cm_converter_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
           <folding />
         </state>
       </provider>

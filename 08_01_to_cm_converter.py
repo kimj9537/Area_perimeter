@@ -7,10 +7,10 @@ def unit_checker():
     meter = ["m", "M", "Meter", "METER"]
     inch = ["Inch", "in", "IN", "INCH"]
     feet = ["Feet","ft" ,"FT", "FEET"]
-    milimeter = ["mm", "MM", "Milimeter", "MILIMETER"]
     yard = ["Yard", "yd", "YD", "YARD"]
     kilometer = ["km", "KM", "Kilometer", "KILOMETER"]
     mile = ["Mile", "mi", "MI", "MILE"]
+    milimeter = ["mm", "MM", "Milimeter", "MILIMETER"]
 
     if unit_tocheck == "":
         print("you chose {}".format(unit_tocheck))
@@ -36,7 +36,8 @@ def unit_checker():
 # ****** Main Routine Goes Here ********
 unit_central = {
     "cm": 1,
-    "m": 0.1,
+    "mm": 0.1,
+    "m": 100,
     "inch": 2.54,
     "feet": 30.48,
     "milimeter": 10,
@@ -51,6 +52,7 @@ while keep_going == "":
 
     # Get unit and change it to match dictionary.
     unit = unit_checker()
+    print("unit", unit)
 
     if unit in unit_central:
         mult_by = unit_central.get(unit)
