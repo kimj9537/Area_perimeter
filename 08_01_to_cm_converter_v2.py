@@ -15,6 +15,9 @@ def unit_checker():
     if unit_tocheck == "":
         print("you chose {}".format(unit_tocheck))
         return unit_tocheck
+    elif not unit_checker():
+        print("not available unit")
+
 
     elif unit_tocheck.lower() in centimeter:
         return "cm"
@@ -46,16 +49,20 @@ unit_central = {
 }
 keep_going = ""
 while keep_going == "":
-    amount = eval(input("How big is the factor? "))
-    amount = float(amount)
+    try:
+        amount = eval(input("How big is the factor? "))
+        amount = float(amount)
 
-    # Get unit and change it to match dictionary.
-    unit = unit_checker()
-    print("unit", unit)
+        # Get unit and change it to match dictionary.
+        unit = unit_checker()
+        print("unit", unit)
 
-    if unit in unit_central:
-        mult_by = unit_central.get(unit)
-        amount = amount * mult_by
-        print("Amount in cm is {}".format(amount))
+        if unit in unit_central:
+            mult_by = unit_central.get(unit)
+            amount = amount * mult_by
+            print("Amount in cm is {}".format(amount))
 
-    keep_going = input("<enter> or q ")
+        keep_going = input("<enter> or q ")
+    except ValueError:
+        print("Not available factor or unit")
+        continue

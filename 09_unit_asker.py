@@ -4,7 +4,7 @@ expanses = []
 
 # Get inputs and add to item_cost list
 item = ""
-while length_unit.lower() != "xxx":
+while length_unit != "xxx":
     length_unit = []
     unit = input(" Unit: ")
 
