@@ -18,7 +18,6 @@ def unit_checker():
     elif not unit_checker():
         print("not available unit")
 
-
     elif unit_tocheck.lower() in centimeter:
         return "cm"
     elif unit_tocheck.lower() in meter:
@@ -66,3 +65,4 @@ while keep_going == "":
     except ValueError:
         print("Not available factor or unit")
         continue
+
