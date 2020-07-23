@@ -1,0 +1,25 @@
+- ask for unit at start (can't be blank)
+- ask for shape
+- depending on the shape ask for...
+	- square (length)
+	- rectangle(base and height)
+	- circle (radius)
+
+	- triangle...
+	area / perimeter or both?
+	area - base and height
+	perimeter - base, sidea an side_b
+	<ask for base>
+	if area...<ask for>
+	if perimeter...<ask for>
+
+	- parallelogram
+	area / perimter / both
+	- base
+	area: height (use rectangle formula)
+	perimeter: slanted_side (use rectangle formula)
+
+***** Calculation History ******
+Circle: area - 3.14 cm^2, perimeter 6.23 cm
+Square: area - 25 cm^2, perimeter 20 cm
+Triangle: area - 20 cm^2, perimeter: n/a

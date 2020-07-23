@@ -1,26 +1,21 @@
-# Initialised lists
-item_cost = []
-expanses = []
 
 # Get inputs and add to item_cost list
-item = ""
-while item.lower() != "xxx":
-    item_cost = []
-    item = input("Item Name: ")
 
-    # If the user enters the exit code, break out of the loop
-    if item.lower() == "xxx":
-      break
 
-    # Get the cost (replace with number checking function in due course)
-    cost = float(input("Item Cost: $"))
-    costs = ("${:.2f}".format(cost))
+def not_blank(question):
 
-    # Add item name and cost to 'item' list
-    item_cost.append(item)
-    item_cost.append(costs)
+    valid = False
+    while not valid:
+        response = input(question)
+        if response == "":
+            print("please enter a valid unit")
+            print()
+            continue
+        else:
+            return response
 
-    expanses.append(item_cost)
+unit = not_blank(" What is the general unit for your shape? ")
+area_unit = "{}^2".format(unit)
 
-for item in expanses:
-    print("{} : {}".format(item[0], item[1]))
+print(unit)
+print(area_unit)
