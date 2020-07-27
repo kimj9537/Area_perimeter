@@ -2,7 +2,16 @@
 # Get inputs and add to item_cost list
 
 
-def not_blank(question):
+def not_blank(question, num_ok):
+    error = "The radius has to be bigger than 0. "
+
+    valid = False
+
+    response = (input(question))
+    if num_ok != "yes":
+        for letter in response:
+            if letter.isdigit():
+                has_errors = "yes"
 
     valid = False
     while not valid:
