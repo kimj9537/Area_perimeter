@@ -47,7 +47,6 @@ user_choice = calculation_kind_checker()
 def num_check(question):
 
     error = "Please enter a number that is more than zero. "
-    error1 = "You've got any of the factors in the program wrongly, so please try again. "
 
     valid = False
     while not valid:
@@ -74,5 +73,6 @@ if shape_name == "circle":
         print("The area of the circle is {}".format(area_of_circle))
     elif user_choice == "perimeter":
         print("The perimeter of the circle is {}".format(perimeter_of_circle))
+
 
 

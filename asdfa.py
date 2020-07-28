@@ -1,3 +1,5 @@
+import math
+
 
 def shape_checker(question, to_check):
 
@@ -45,6 +47,7 @@ user_choice = calculation_kind_checker()
 def num_check(question):
 
     error = "Please enter a number that is more than zero. "
+    error1 = "You've got any of the factors in the program wrongly, so please try again. "
 
     valid = False
     while not valid:
@@ -60,14 +63,14 @@ def num_check(question):
         except ValueError:
             print(error)
 
-if shape_name == "square":
-    side_length = num_check(" How long is the length of a side of the square? ")
-    area_of_square = side_length * side_length
-    perimeter_of_square = side_length * 4
+if shape_name == "circle":
+    radius = num_check(" How long is the radius? ")
+    area_of_circle = radius * radius * math.pi
+    perimeter_of_circle = radius * 2 * math.pi
     if user_choice == "both":
-        print("The area of the square is {}".format(area_of_square))
-        print("The perimeter of the square is {}".format(perimeter_of_square))
-    elif user_choice == "area:":
-        print("The area of the square is {}".format(area_of_square))
+        print("The area of the circle is {}".format(area_of_circle))
+        print("The perimeter of the circle is {}".format(perimeter_of_circle))
+    elif user_choice == "area":
+        print("The area of the circle is {}".format(area_of_circle))
     elif user_choice == "perimeter":
-        print("The perimeter of the square is {}".format(perimeter_of_square))
+        print("The perimeter of the circle is {}".format(perimeter_of_circle))

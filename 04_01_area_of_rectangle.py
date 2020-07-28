@@ -20,6 +20,6 @@ def num_check(question):
 side_length = num_check(" How long is the side of the rectangle? ")
 height_length = num_check(" How long is the height of the rectangle? ")
 
-perimeter_of_square = side_length * height_length
+perimeter_of_rectangle = side_length * height_length
 
-print("The area of the square is {}".format(perimeter_of_square))
+print("The area of the square is {}".format(perimeter_of_rectangle))
