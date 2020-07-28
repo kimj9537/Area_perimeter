@@ -43,6 +43,20 @@ def calculation_kind_checker():
 
 user_choice = calculation_kind_checker()
 
+def not_blank(question):
+    valid = False
+    while not valid:
+        while not valid:
+            response = input(question)
+            if response == "":
+                print()
+                continue
+            else:
+                return response
+
+unit = not_blank(" What is the general unit for your shape? ")
+area_unit = "{}^2".format(unit)
+
 
 def num_check(question):
 
@@ -67,35 +81,35 @@ if shape_name == "circle":
     area_of_circle = radius * radius * math.pi
     perimeter_of_circle = radius * 2 * math.pi
     if user_choice == "both":
-        print("The area of the circle is {}".format(area_of_circle))
-        print("The perimeter of the circle is {}".format(perimeter_of_circle))
+        print("The area of the circle is {}{}. ".format(area_of_circle, unit^2))
+        print("The perimeter of the circle is {}{}. ".format(perimeter_of_circle, unit))
     elif user_choice == "area":
-        print("The area of the circle is {}".format(area_of_circle))
+        print("The area of the circle is {}{}. ".format(area_of_circle, unit^2))
     elif user_choice == "perimeter":
-        print("The perimeter of the circle is {}".format(perimeter_of_circle))
+        print("The perimeter of the circle is {}{}. ".format(perimeter_of_circle, unit))
 if shape_name == "square":
     side_length = num_check(" How long is the length of a side of the square? ")
     area_of_square = side_length * side_length
     perimeter_of_square = side_length * 4
     if user_choice == "both":
-        print("The area of the square is {}".format(area_of_square))
-        print("The perimeter of the square is {}".format(perimeter_of_square))
+        print("The area of the square is {}{}".format(area_of_square, unit^2))
+        print("The perimeter of the square is {}{}".format(perimeter_of_square, unit))
     elif user_choice == "area:":
-        print("The area of the square is {}".format(area_of_square))
+        print("The area of the square is {}{}".format(area_of_square, unit^2))
     elif user_choice == "perimeter":
-        print("The perimeter of the square is {}".format(perimeter_of_square))
+        print("The perimeter of the square is {}{}".format(perimeter_of_square, unit))
 if shape_name == "rectangle":
     base_length = num_check("How long is the base length of the rectangle? ")
     height_length = num_check("How long is the height length of the rectangle? ")
     area_of_rectangle = base_length * height_length
     perimeter_of_rectangle = (base_length + height_length) * 2
     if user_choice == "both":
-        print("The area of the rectangle is {}".format(area_of_rectangle))
-        print("The perimeter of the rectanlge is {}".format(perimeter_of_rectangle))
+        print("The area of the rectangle is {}{}".format(area_of_rectangle, unit^2))
+        print("The perimeter of the rectanlge is {}{}".format(perimeter_of_rectangle, unit))
     elif user_choice == "area:":
-        print("The area of the rectangle is {}".format(area_of_rectangle))
+        print("The area of the rectangle is {}{}".format(area_of_rectangle, unit^2))
     elif user_choice == "perimeter":
-        print("The perimeter of the rectangle is {}".format(perimeter_of_rectangle))
+        print("The perimeter of the rectangle is {}{}".format(perimeter_of_rectangle, unit))
 if shape_name == "triangle":
     height_length = num_check(" How long is the height of this triangle? ")
     base_length = num_check(" How long is the base of the triangle? ")
@@ -105,12 +119,12 @@ if shape_name == "triangle":
     area_of_triangle = height_length * base_length * 0.5
     perimeter_of_triangle = side_A_length + side_B_length + side_C_length
     if user_choice == "both":
-        print("The area of the triangle is {}. ".format(area_of_triangle))
-        print("The perimeter of the triangle is {}. ".format(perimeter_of_triangle))
+        print("The area of the triangle is {}{}. ".format(area_of_triangle, unit^2))
+        print("The perimeter of the triangle is {}{}. ".format(perimeter_of_triangle))
     if user_choice == "area":
-        print("The area of the triangle is {}. ".format(area_of_triangle))
+        print("The area of the triangle is {}{}. ".format(area_of_triangle,unit^2))
     if user_choice == "perimeter":
-        print("The perimeter of the triangle is {}. ".format(perimeter_of_triangle))
+        print("The perimeter of the triangle is {}{}. ".format(perimeter_of_triangle))
 if shape_name == "parallelogram":
     base_length = num_check(" How long is the base of this parallelogram? ")
     height_length = num_check(" How long is the height of this parallelogram? ")
@@ -121,9 +135,9 @@ if shape_name == "parallelogram":
     perimeter_of_parallelogram = side_A_length + side_B_length + side_C_length + side_D_length
     area_of_parallelogram = base_length * height_length
     if user_choice == "both":
-        print("The area of the parallelogram is {}. ".format(area_of_parallelogram))
-        print("The perimeter of the parallelogram is {}. ".format(perimeter_of_parallelogram))
+        print("The area of the parallelogram is {}{}. ".format(area_of_parallelogram, unit^2))
+        print("The perimeter of the parallelogram is {}{}. ".format(perimeter_of_parallelogram))
     if user_choice == "area":
-        print("The area of the parallelogram is {}. ".format(area_of_parallelogram))
+        print("The area of the parallelogram is {}{}. ".format(area_of_parallelogram, unit^2))
     if user_choice == "perimeter":
-        print("The perimeter of the parallelogram is {}. ".format(perimeter_of_parallelogram))
+        print("The perimeter of the parallelogram is {}{}. ".format(perimeter_of_parallelogram, unit^2))
